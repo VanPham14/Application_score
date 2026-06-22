@@ -1,0 +1,5 @@
+Model,Train AUC,Test AUC,Test Gini,Test KS,Precision (Bad),Recall (Bad),Recall (Good),F1 (Bad),TP,FP,TN,FN,Threshold,Train Time (s),Dataset
+TabNet + MHA + BCE Loss,0.8676,0.87,0.74,0.5821,0.1888,0.8409,0.7412,0.3084,1686,7244,20751,319,0.4278,,Give Me Some Credit
+TabNet + no MHA + Focal Loss,0.8694,0.8688,0.7377,0.5808,0.2137,0.7885,0.7922,0.3363,1581,5816,22179,424,0.5878,,Give Me Some Credit
+TabNet + MHA + Focal Loss,0.8673,0.8688,0.7376,0.582,0.2023,0.811,0.771,0.3238,1626,6411,21584,379,0.5464,,Give Me Some Credit
+TabNet,0.8699,0.868,0.7361,0.5802,0.2258,0.7691,0.8111,0.3491,1542,5288,22707,463,0.546,248.54,Give Me Some Credit
